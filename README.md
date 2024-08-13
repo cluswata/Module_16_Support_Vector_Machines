@@ -3,7 +3,7 @@
 ***Introduction***<br>
 Predicting customer churn, when someone chooses to stop using your products or services, is a critical task for businesses aiming to retain their customer base and optimize their marketing strategies. The effectiveness of machine learning models in predicting customer churn can significantly impact business outcomes. This study aimed to compare four prominent classification models—Logistic Regression, Decision Trees, K-Nearest Neighbors (KNN), and Support Vector Machines (SVM)—to determine the most suitable model for predicting telecom customer churn, considering factors such as handling imbalanced classes, training speed, and interpretability.
 
-**Objectives***
+***Objectives***
 * Evaluate the suitability of Logistic Regression, Decision Trees, KNN, and SVM for predicting customer churn in terms of weaknesses and strengths.
 * Compare the models in terms of accuracy, training speed/time, and ROC-AUC score to determine the best-performing model for predicting customer churn.
 
@@ -88,10 +88,11 @@ This analysis provided a comprehensive comparison of Logistic Regression, Decisi
 ***An overfit Tree***
 ![OverFit_DT](Graphs/OverFit_DT.jpg)
 
+
 ***A pruned Tree***
 ![Pruned_DT](Graphs/Pruned_DT.jpg)
-<br>
-*Cost Complexity Pruning (CCP) or Weakest Link Pruning, a technique used in decision tree algorithms to prevent overfitting and enhance generalization was used.
+
+Cost Complexity Pruning (CCP) or Weakest Link Pruning, a technique used in decision tree algorithms to prevent overfitting and enhance generalization was used.
 
 ***Interpretation:***
 
@@ -119,7 +120,7 @@ This decision tree provides a clear set of rules based on key features to classi
 ***Other uses of Machine Learning Classifiers:*** Case of Recognizing Handwritten Digits. <br>
 Two models, a decision tree classier and Support Vector Machine/Classifier (SVC)  were trained on handwritten digit data provided.
 
-# Load the digits dataset
+Load the digits dataset
 digits, labels = load_digits(return_X_y=True)
 digits
 array([[ 0.,  0.,  5., ...,  0.,  0.,  0.],
@@ -133,9 +134,11 @@ array([[ 0.,  0.,  5., ...,  0.,  0.,  0.],
 Below are the Classification reports for the two classifiers:
 
 Decision Tree
+
 ![Handwriting](Graphs/Handwriting.jpg)
 
 Support Vector Machine
+
 ![Handwriting_SVC](Graphs/Handwriting_SVC.jpg)
 
 ***Recommended Classifier***<br>
