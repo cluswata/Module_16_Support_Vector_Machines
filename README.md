@@ -56,10 +56,10 @@ Predicting customer churn, when someone chooses to stop using your products or s
 ***Results:***<br>
 From the data it was observed that 14.5% of the customers churned while 85.5% did not, depicting imbalanced classes.
 
-![bar_churn](Graphs/bar_churn.png)
+![bar_churn](Graphs/bar_churn.jpg)
 
-![Class_Rprt_DT_LR_KNN_SVM](Graphs/Class_Rprt_DT_LR_KNN_SVM.png)
-![Compare_DT_LR_KNN_SVM](Graphs/Compare_DT_LR_KNN_SVM.png)
+![Class_Rprt_DT_LR_KNN_SVM](Graphs/Class_Rprt_DT_LR_KNN_SVM.jpg)
+![Compare_DT_LR_KNN_SVM](Graphs/Compare_DT_LR_KNN_SVM.jpg)
 
 ***Comparative analysis***<br>
 * ***Train Score:*** The Decision Tree had the highest training score, indicating that it fit the training data exceptionally well. However, very high train scores can sometimes indicate overfitting, particularly if the test score is significantly lower. KNN, SVM and Logistic Regression had comparable train scores, with KNN performing slightly better.
@@ -85,7 +85,7 @@ This analysis provided a comprehensive comparison of Logistic Regression, Decisi
 ***A Decision Tree Predicting Customer Churn:***
 
 ***An overfit Tree***
-![OverFit_DT](Graphs/OverFit_DT.png)
+![OverFit_DT](Graphs/OverFit_DT.jpg)
 
 ***A pruned Tree***
 ![Pruned_DT](Graphs/Pruned_DT.png)
@@ -131,10 +131,10 @@ array([[ 0.,  0.,  5., ...,  0.,  0.,  0.],
 Below are the Classification reports for the two classifiers:
 
 Decision Tree
-![Handwriting](Graphs/Handwriting.png)
+![Handwriting](Graphs/Handwriting.jpg)
 
 Support Vector Machine
-![Handwriting_SVC](Graphs/Handwriting_SVC.png)
+![Handwriting_SVC](Graphs/Handwriting_SVC.jpg)
 
 ***Recommended Classifier***<br>
 For recognizing handwritten digits in our study, SVC was the most suitable classifier because of its higher accuracy (0.97) compared to Decision Tree classifier (0.76). Furthermore, SVC offers High-Dimensionality typical in image recognition tasks, and Kernel Trick to handle non-linear data. However, even if SVC is most suitable in this case, the choice of classifier may depend on the specific requirements of the application, including the trade-off between accuracy, interpretability, and computational efficiency.
