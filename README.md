@@ -59,6 +59,7 @@ From the data it was observed that 14.5% of the customers churned while 85.5% di
 ![bar_churn](Graphs/bar_churn.jpg)
 
 ![Class_Rprt_DT_LR_KNN_SVM](Graphs/Class_Rprt_DT_LR_KNN_SVM.jpg)
+
 ![Compare_DT_LR_KNN_SVM](Graphs/Compare_DT_LR_KNN_SVM.jpg)
 
 ***Comparative analysis***<br>
@@ -88,7 +89,8 @@ This analysis provided a comprehensive comparison of Logistic Regression, Decisi
 ![OverFit_DT](Graphs/OverFit_DT.jpg)
 
 ***A pruned Tree***
-![Pruned_DT](Graphs/Pruned_DT.png)
+![Pruned_DT](Graphs/Pruned_DT.jpg)
+<br>
 *Cost Complexity Pruning (CCP) or Weakest Link Pruning, a technique used in decision tree algorithms to prevent overfitting and enhance generalization was used.
 
 ***Interpretation:***
