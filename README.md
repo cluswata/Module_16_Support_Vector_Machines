@@ -86,10 +86,12 @@ This analysis provided a comprehensive comparison of Logistic Regression, Decisi
 ***A Decision Tree Predicting Customer Churn:***
 
 ***An overfit Tree***
+
 ![OverFit_DT](Graphs/OverFit_DT.jpg)
 
 
 ***A pruned Tree***
+
 ![Pruned_DT](Graphs/Pruned_DT.jpg)
 
 Cost Complexity Pruning (CCP) or Weakest Link Pruning, a technique used in decision tree algorithms to prevent overfitting and enhance generalization was used.
@@ -133,11 +135,11 @@ array([[ 0.,  0.,  5., ...,  0.,  0.,  0.],
 
 Below are the Classification reports for the two classifiers:
 
-Decision Tree
+***Decision Tree***
 
 ![Handwriting](Graphs/Handwriting.jpg)
 
-Support Vector Machine
+***Support Vector Machine***
 
 ![Handwriting_SVC](Graphs/Handwriting_SVC.jpg)
 
